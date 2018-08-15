@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47ec91ab-96dd-4406-a427-5f6c0b07fd5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/Chapter5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.mylyn/.taskListIndex/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.mylyn/.taskListIndex/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.mylyn/tasks.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/c7/f0eebcde649f00181fe8b2be20851098" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d3/10c7bfc1d69a00181fe8b2be20851098" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/d6/e04a7bd0d69a00181fe8b2be20851098" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.history/fa/f088aed97e9f00181fe8b2be20851098" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.jdt.core.external.folders/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HttpAPITestDemo/.indexes/64/ab/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HttpAPITestDemo/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/HttpAPITestDemo/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/IOStudy/.indexes/e4/34/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/IOStudy/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/IOStudy/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/IOStudy2/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/IOStudy2/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/TestNGDemo/.indexes/64/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/TestNGDemo/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/TestNGDemo/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/httpAPITest/.indexes/64/ab/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/httpAPITest/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/httpAPITest/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/jsonPrase/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/jsonPrase/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/testng_example2/.indexes/e4/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/testng_example2/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/testng_example2/.markers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/testng_example2/org.eclipse.jdt.core/state.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.root/10.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.logging.aeri.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.java.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.recommenders.completion.rcp.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.search.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.web.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.sse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.testng.eclipse.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/AWTConsole.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/BufferedReaderStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/DependTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/ExcelStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/ExcellOperation.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/ExceptionTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileInputStreamStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileOutputStreamStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileReaderStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileStudy2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileStudy3.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/FileWriterStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/GetHttpAPITestDemo.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/GroupTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/HttpRequest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/IOStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/MainClass (1).launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/MainClass.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/MainClassTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/MainMethod.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/NewTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/ParamTest.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/PrintStreamStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/StringReaderStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/TesCaculate.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/TestAdd.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/TestCaculate.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/TestCaculate.testadd1.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/TestCaseStudy.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/URLFileOperation.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/WeatherTestCase.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/busdetailpost.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/businfopost.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/excel.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/jsonParse.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/test.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.core/.launches/testng_example2.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.ui.workbench.swt/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/http-cache.lucene60/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/_0.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/segments_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/local-history.lucene60/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/.org.eclipse.jdt.core.external.folders/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1138682822.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1271342938.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1377406178.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1406490538.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1463469286.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/150754716.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1789201064.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1836111425.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1890862701.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2028577421.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2043206947.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2085917576.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2284736203.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2289196694.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2339727568.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2425607851.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2468038871.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2507346552.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2626492849.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2669945424.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/275094254.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2789894291.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/286692086.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/2973570024.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3106509465.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3115121582.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3224435206.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3243358886.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/327579876.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3611635697.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3741955831.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3774403085.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/380907855.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/3888288028.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/396460768.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/4070421791.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/4177643128.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/4191817251.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/56001627.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/71027942.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/831980430.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/972051392.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/995247809.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/999066108.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/index.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/indexNamesMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1789201064.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3741955831.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HttpAPITestDemo/2018/7/28/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/HttpAPITestDemo/2018/7/28/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/IOStudy/2018/7/29/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/IOStudy/2018/7/29/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/IOStudy/2018/7/30/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/IOStudy/2018/7/30/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/TestNGDemo/2018/6/25/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/TestNGDemo/2018/6/25/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/jsonPrase/2018/6/26/refactorings.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/jsonPrase/2018/6/26/refactorings.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/b77b3a2032975f166b842e6c4eb90a71/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/b77b3a2032975f166b842e6c4eb90a71/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/b77b3a2032975f166b842e6c4eb90a71/segments_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/nexus/b77b3a2032975f166b842e6c4eb90a71/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.8.3.20180227-2137.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.mylyn.bugzilla.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.mylyn.tasks.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/.local_targets/1531389030041.target" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.core/SavedExternalPluginList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.pde.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.rse.core/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.liuboyingdemacbook-pro_1156/FP.local.files_0/node.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.liuboyingdemacbook-pro_1156/H.local_16/node.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.liuboyingdemacbook-pro_1156/node.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.rse.ui/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.search/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.team.ui/syncParticipants.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.internet.cache/1686187727.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.internet.cache/cache.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/baseBrowserLibrary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/browserWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/dom5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/system.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/libraries/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.sse.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/caches/identified-project-coordinates.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/caches/manual-mappings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.frq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.nrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.prx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.tii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/_5.tis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/boying/HttpAPITestDemo/Excel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/boying/HttpAPITestDemo/ExcelStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/boying/HttpAPITestDemo/GetHttpAPITestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/boying/HttpAPITestDemo/GetHttpResponseContent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/boying/HttpAPITestDemo/IOStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/boying/HttpAPITestDemo/JsonPrase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/bin/testCase/NewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/result" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/result.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/boying/HttpAPITestDemo/Excel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/boying/HttpAPITestDemo/ExcelStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/boying/HttpAPITestDemo/GetHttpAPITestDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/boying/HttpAPITestDemo/GetHttpResponseContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/boying/HttpAPITestDemo/IOStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/boying/HttpAPITestDemo/JsonPrase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/src/testCase/NewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/reportng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/reportng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/sorttable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/suite1_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/test-output/html/suites.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/HttpAPITestDemo/未命名.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.idea/IOStudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/ResponseContent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/URL/URLList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/\result\测试结果.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/httpAndIOStudy/ExcellOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/httpAndIOStudy/HttpRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/httpAndIOStudy/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/httpAndIOStudy/URLFileOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/BufferedReaderStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/FileInputStreamStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/FileOutputStreamStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/FileReaderStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/FileStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/FileWriterStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/PrintStreamStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/bin/iostudy/lby/StringReaderStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/helloxx.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/interfaceResult.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/newtext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/newtextcopy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/response.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/httpAndIOStudy/ExcellOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/httpAndIOStudy/HttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/httpAndIOStudy/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/httpAndIOStudy/URLFileOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/BufferedReaderStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/FileInputStreamStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/FileOutputStreamStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/FileReaderStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/FileStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/FileWriterStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/PrintStreamStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/src/iostudy/lby/StringReaderStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/testforfilewriter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/水木.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy/测试结果.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy2/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy2/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy2/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy2/bin/iostudy/lby/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/IOStudy2/src/iostudy/lby/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/RemoteSystemsTempFiles/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/bin/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/bin/org/example/NewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/src/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/src/org/example/NewTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/reportng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/reportng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/sorttable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/suite1_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/html/suites.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/junitreports/TEST-org.example.NewTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/junitreports/TEST-testNGdemo.MainClassTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/TestNGDemo/test-output/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/boying/Interface/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/boying/Interface/MainMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/boying/Interface/URLConnetcion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/boying/Interface/getCityWeather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/boying/Interface/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/lby/testcase/TestCaseStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/lby/testcase/WeatherTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/bin/lby/testcase/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/boying/Interface/Common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/boying/Interface/MainMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/boying/Interface/URLConnetcion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/boying/Interface/getCityWeather.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/boying/Interface/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/lby/testcase/TestCaseStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/lby/testcase/WeatherTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/src/lby/testcase/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/reportng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/reportng.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/sorttable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/suite1_test1_results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/httpAPITest/test-output/html/suites.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/bin/JSONObjectStudy/JSONObjectStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/bin/JSONObjectStudy/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/bin/jsonPrase/jsonParse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/src/JSONObjectStudy/JSONObjectStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/src/JSONObjectStudy/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eclipse-workspace/jsonPrase/src/jsonPrase/jsonParse.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/Chapter5/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-608027642">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="84" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter5/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Chapter5/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="833" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534309066944" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="BasicAnnotation.testcase1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.testng" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.BasicAnnotation" />
+      <option name="METHOD_NAME" value="testcase1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BasicAnnotation.testcase1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47ec91ab-96dd-4406-a427-5f6c0b07fd5b" name="Default Changelist" comment="" />
+      <created>1534303388337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534303388337</updated>
+      <workItem from="1534303389681" duration="2083000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2083000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="25" width="1400" height="833" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chapter5/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter5/src/main/java/com/course/testng/BasicAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Chapter5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
